@@ -85,6 +85,7 @@ namespace DataGridView
             // 
             this.nIMDataGridViewTextBoxColumn.DataPropertyName = "NIM";
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Fuchsia;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Silver;
             this.nIMDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle1;
             this.nIMDataGridViewTextBoxColumn.HeaderText = "NIM";
             this.nIMDataGridViewTextBoxColumn.Name = "nIMDataGridViewTextBoxColumn";
@@ -93,6 +94,7 @@ namespace DataGridView
             // 
             this.namaMhsDataGridViewTextBoxColumn.DataPropertyName = "NamaMhs";
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.namaMhsDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
             this.namaMhsDataGridViewTextBoxColumn.HeaderText = "NamaMhs";
             this.namaMhsDataGridViewTextBoxColumn.Name = "namaMhsDataGridViewTextBoxColumn";
